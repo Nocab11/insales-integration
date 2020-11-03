@@ -7,7 +7,6 @@
     <title>Страница авторизации</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <link rel="stylesheet" href="./css/authorization.css">
     <link rel="stylesheet" href="./css/step.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
@@ -40,48 +39,52 @@
                 </p>
                 <div class="delivery-service">
                     <p>Выберите службы доставки, которые будете отслеживать:</p>
-                    <div class="ds-checkbox-box">
-                        <input class="ds-input-checkbox" type="checkbox" id="ds_1">
-                        <label class="ds-label-checkbox" for="ds_1">Выбрать все</label>
-                    </div>
-                    <div class="ds-checkbox-box">
-                        <input class="ds-input-checkbox" type="checkbox" id="ds_2">
-                        <label class="ds-label-checkbox" for="ds_2">Почта России</label>
-                        <div class="ds-checkbox-box ds-checkbox-under">
-                            <input class="ds-input-checkbox" type="checkbox" id="ds_2_1">
-                            <label class="ds-label-checkbox" for="ds_2_1">Самовывоз</label>
+                    <form action="">
+                        <div class="ds-checkbox-box">
+                            <input class="ds-input-checkbox" type="checkbox" id="ds_1">
+                            <label class="ds-label-checkbox" for="ds_1">Выбрать все</label>
                         </div>
-                        <div class="ds-checkbox-box ds-checkbox-under">
-                            <input class="ds-input-checkbox" type="checkbox" id="ds_2_2">
-                            <label class="ds-label-checkbox" for="ds_2_2">Курьер</label>
+                        <div class="ds-checkbox-box">
+                            <input class="ds-input-checkbox" type="checkbox" id="ds_2">
+                            <label class="ds-label-checkbox" for="ds_2">Почта России</label>
+                            <div class="ds-checkbox-box ds-checkbox-under">
+                                <input class="ds-input-checkbox" type="checkbox" id="ds_2_1">
+                                <label class="ds-label-checkbox" for="ds_2_1">Самовывоз</label>
+                            </div>
+                            <div class="ds-checkbox-box ds-checkbox-under">
+                                <input class="ds-input-checkbox" type="checkbox" id="ds_2_2">
+                                <label class="ds-label-checkbox" for="ds_2_2">Курьер</label>
+                            </div>
                         </div>
-                    </div>
-                    <div class="ds-checkbox-box">
-                        <input class="ds-input-checkbox" type="checkbox" id="ds_3">
-                        <label class="ds-label-checkbox" for="ds_3">CDEK</label>
-                        <div class="ds-checkbox-box ds-checkbox-under">
-                            <input class="ds-input-checkbox" type="checkbox" id="ds_3_1">
-                            <label class="ds-label-checkbox" for="ds_3_1">Самовывоз</label>
+                        <div class="ds-checkbox-box">
+                            <input class="ds-input-checkbox" type="checkbox" id="ds_3">
+                            <label class="ds-label-checkbox" for="ds_3">CDEK</label>
+                            <div class="ds-checkbox-box ds-checkbox-under">
+                                <input class="ds-input-checkbox" type="checkbox" id="ds_3_1">
+                                <label class="ds-label-checkbox" for="ds_3_1">Самовывоз</label>
+                            </div>
+                            <div class="ds-checkbox-box ds-checkbox-under">
+                                <input class="ds-input-checkbox" type="checkbox" id="ds_3_2">
+                                <label class="ds-label-checkbox" for="ds_3_2">Курьер</label>
+                            </div>
                         </div>
-                        <div class="ds-checkbox-box ds-checkbox-under">
-                            <input class="ds-input-checkbox" type="checkbox" id="ds_3_2">
-                            <label class="ds-label-checkbox" for="ds_3_2">Курьер</label>
+                        <div class="ds-checkbox-box">
+                            <input class="ds-input-checkbox" type="checkbox" id="ds_4">
+                            <label class="ds-label-checkbox" for="ds_4">Boxberry</label>
                         </div>
-                    </div>
-                    <div class="ds-checkbox-box">
-                        <input class="ds-input-checkbox" type="checkbox" id="ds_4">
-                        <label class="ds-label-checkbox" for="ds_4">Boxberry</label>
-                    </div>
-                    <div class="ds-checkbox-box">
-                        <input class="ds-input-checkbox" type="checkbox" id="ds_5">
-                        <label class="ds-label-checkbox" for="ds_5">EMC</label>
-                    </div>
-                    <div class="ds-checkbox-box">
-                        <input class="ds-input-checkbox" type="checkbox" id="ds_6">
-                        <label class="ds-label-checkbox" for="ds_6">InSales</label>
-                    </div>
+                        <div class="ds-checkbox-box">
+                            <input class="ds-input-checkbox" type="checkbox" id="ds_5">
+                            <label class="ds-label-checkbox" for="ds_5">EMC</label>
+                        </div>
+                        <div class="ds-checkbox-box">
+                            <input class="ds-input-checkbox" type="checkbox" id="ds_6">
+                            <label class="ds-label-checkbox" for="ds_6">InSales</label>
+                        </div>
+                        <div class="delivery-further">
+                            <button class="delivery-further__button">Далее</button>
+                        </div>
+                    </form>
                 </div>
-
             </div>
             <div class="content-integration">
                 <img class="content-integration__example" src="./images/example.png" alt="">

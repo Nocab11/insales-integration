@@ -146,3 +146,19 @@ body {
 .content-integration__example {
     box-shadow: 0 0 10px #c7c7c7;
 }
+.delivery-further {
+    margin-top: 28px;
+}
+.delivery-further__button {
+    width: 100%;
+    max-width: 110px;
+    padding: 8px 0;
+    background: #357CA5;
+    box-shadow: 0 6px 12px rgba(44, 39, 56, 0.08), 0 12px 24px rgba(44, 39, 56, 0.16);
+    border-radius: 3px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+}
+
