@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>Страница авторизации</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="./css/authorization.css">
+    <link rel="stylesheet" href="./css/step.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="status-head">
+            <div class="status-step">
+                <span class="status-step__item status-step_active">Шаг 1</span>
+                <span class="status-step__item status-step_indent">Шаг 2</span>
+                <span class="status-step__item status-step_indent">Шаг 3</span>
+                <span class="status-step__item">Шаг 4</span>
+            </div>
+            <img class="status-head__img" src="./images/status1.png" alt="">
+            <div class="status-description">
+                <span class="status-description__item status-description_active">Настройка <br> отслеживания</span>
+                <span class="status-description__item status-description_two">Настройка <br> синхронизации <br> статусов</span>
+                <span class="status-description__item status-description_three">Настройка <br> синхронизации <br> способов оплаты</span>
+                <span class="status-description__item">Знакомство <br> с виджетом</span>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-info">
+                <h2 class="content-head">Настройка <br> отслеживания</h2>
+                <p class="content-paragraph">
+                    Чтобы отследить конкретную посылку, вставьте <span class="content-paragraph_nowrap">трекинг-код</span> в поле <span class="content-paragraph_nowrap">«Трекинг-код Стрекоза»</span>.
+                    <br>
+                    Это новое поле, которое появилось в разделе «Заказ».
+                </p>
+                <div class="delivery-service">
+                    <p>Выберите службы доставки, которые будете отслеживать:</p>
+                    <div class="ds-checkbox-box">
+                        <input class="ds-input-checkbox" type="checkbox" id="ds_1">
+                        <label class="ds-label-checkbox" for="ds_1">Выбрать все</label>
+                    </div>
+                    <div class="ds-checkbox-box">
+                        <input class="ds-input-checkbox" type="checkbox" id="ds_2">
+                        <label class="ds-label-checkbox" for="ds_2">Почта России</label>
+                        <div class="ds-checkbox-box ds-checkbox-under">
+                            <input class="ds-input-checkbox" type="checkbox" id="ds_2_1">
+                            <label class="ds-label-checkbox" for="ds_2_1">Самовывоз</label>
+                        </div>
+                        <div class="ds-checkbox-box ds-checkbox-under">
+                            <input class="ds-input-checkbox" type="checkbox" id="ds_2_2">
+                            <label class="ds-label-checkbox" for="ds_2_2">Курьер</label>
+                        </div>
+                    </div>
+                    <div class="ds-checkbox-box">
+                        <input class="ds-input-checkbox" type="checkbox" id="ds_3">
+                        <label class="ds-label-checkbox" for="ds_3">CDEK</label>
+                        <div class="ds-checkbox-box ds-checkbox-under">
+                            <input class="ds-input-checkbox" type="checkbox" id="ds_3_1">
+                            <label class="ds-label-checkbox" for="ds_3_1">Самовывоз</label>
+                        </div>
+                        <div class="ds-checkbox-box ds-checkbox-under">
+                            <input class="ds-input-checkbox" type="checkbox" id="ds_3_2">
+                            <label class="ds-label-checkbox" for="ds_3_2">Курьер</label>
+                        </div>
+                    </div>
+                    <div class="ds-checkbox-box">
+                        <input class="ds-input-checkbox" type="checkbox" id="ds_4">
+                        <label class="ds-label-checkbox" for="ds_4">Boxberry</label>
+                    </div>
+                    <div class="ds-checkbox-box">
+                        <input class="ds-input-checkbox" type="checkbox" id="ds_5">
+                        <label class="ds-label-checkbox" for="ds_5">EMC</label>
+                    </div>
+                    <div class="ds-checkbox-box">
+                        <input class="ds-input-checkbox" type="checkbox" id="ds_6">
+                        <label class="ds-label-checkbox" for="ds_6">InSales</label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="content-integration">
+                <img class="content-integration__example" src="./images/example.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

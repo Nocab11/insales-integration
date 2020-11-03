@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>Страница авторизации</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="./css/authorization.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="authorization">
+        <div class="authorization-block__gradient">
+            <div class="authorization-logo">
+                <a href="javascript:void(0);">
+                    <img src="./images/logo.svg" alt="Стрекоза">
+                </a>
+            </div>
+            <div class="authorization-text">
+                <h3 class="authorization-text__subhead">Повышаем выкуп почтовых <span class="authorization-text__subhead_block">заказов на 30%</span></h3>
+                <h1 class="authorization-text__head">Заработай больше <span class="authorization-text__subhead_block"> на том же объеме </span> <span class="authorization-text__subhead_block"> заказов </span></h1>
+            </div>
+        </div>
+        <div class="authorization-block__common">
+            <div class="authorization-content">
+                <p class="auth-head">Зарегистрироваться</p>
+                <p class="auth-paragraph">Если у вас есть аккаунт, вы можете <a class="auth-link" href="javascript:void(0);">войти</a> в него.</p>
+                <form action="" class="registration-form" method="post">
+                    <!-- Для класса auth-box добавить класс has-error, если поле заполнено не верно -->
+                    <div class="auth-box">
+                        <label class="auth-label" for="registration_email_id">Email</label>
+                        <input class="auth-input" type="email" name="registration_email" id="registration_email_id" placeholder="Введите ваш e-mail">
+                        <span class="error-text">Введен неверный адрес электронной почты</span>
+                    </div>
+                    <!-- Поле с телефоном пока неактивно
+                    <div class="auth-box">
+                        <label class="auth-label" for="registration_phone_id">Номер телефона</label>
+                        <input class="auth-input" type="tel" name="registration_phone" id="registration_phone_id" placeholder="+7 (999) 000 00-00">
+                        <span class="error-text">Введите действительный номер телефона</span>
+                    </div>
+                    -->
+                    <!-- Для класса auth-box добавить класс has-error, если поле заполнено не верно -->
+                    <div class="auth-box has-error">
+                        <label class="auth-label" for="registration_promocode_id">Промокод</label>
+                        <input class="auth-input" type="text" name="registration_promocode" id="registration_promocode_id" placeholder="Введите промокод">
+                        <span class="error-text">Промокод неверен</span>
+                    </div>
+                    <div class="auth-policy checkbox-box">
+                        <input class="auth-input-checkbox" type="checkbox" id="registration_checkbox">
+                        <label class="auth-label-checkbox" for="registration_checkbox">Принимаю условия Лицензионного соглашения и Политики конфидециальности </label>
+                    </div>
+                    <div class="auth-knob">
+                        <button class="auth-button">Зарегистрироваться</button>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </section>
+
+</body>
+</html>
