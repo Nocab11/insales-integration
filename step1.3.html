@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>Страница авторизации</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="./css/step.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="wrap">
+    <div class="status-head status-head-desktop">
+        <div class="status-step">
+            <span class="status-step__item status-step_active">Шаг 1</span>
+            <span class="status-step__item status-step_active status-step_indent">Шаг 2</span>
+            <span class="status-step__item status-step_active status-step_indent">Шаг 3</span>
+            <span class="status-step__item">Шаг 4</span>
+        </div>
+        <img class="status-head__img" src="./images/status3.png" alt="">
+        <div class="status-description">
+            <span class="status-description__item status-description_active">Настройка <br> отслеживания</span>
+            <span class="status-description__item status-description_active status-description_two">Настройка <br> синхронизации <br> статусов</span>
+            <span class="status-description__item status-description_active status-description_three">Настройка <br> синхронизации <br> способов оплаты</span>
+            <span class="status-description__item">Знакомство <br> с виджетом</span>
+        </div>
+    </div>
+    <div class="status-head status-head-mobile">
+        <h2 class="general-head">Шаг 3. Настройка синхронизации способов оплаты</h2>
+        <p class="general-paragraph">
+            В личном кабинете вы можете настроить разные цепочки уведомлений для предоплаченных заказов и заказов, отправленных наложенных платежом.
+        </p>
+        <p class="general-paragraph">
+            Выберите какой способ оплаты на вашем сайте относится к предоплате, а какой к наложенному платежу.
+        </p>
+        <p class="general-paragraph">
+            Этот шаг можно пропустить. Нажмите далее, чтобы пропустить настройку синхронизации способов оплаты.
+        </p>
+    </div>
+    <div class="content">
+        <div class="content-info">
+            <h2 class="general-head text-desktop">Настройка <br> синхронизации <br> способов оплаты</h2>
+            <p class="general-paragraph text-desktop">
+                В личном кабинете вы можете настроить разные цепочки уведомлений для предоплаченных заказов и заказов, отправленных наложенных платежом.
+            </p>
+            <p class="general-paragraph text-desktop">
+                Выберите какой способ оплаты на вашем сайте относится к предоплате, а какой к наложенному платежу.
+            </p>
+            <p class="general-paragraph text-desktop">
+                Этот шаг можно пропустить. Нажмите далее, чтобы пропустить настройку синхронизации способов оплаты.
+            </p>
+            <div class="delivery-service">
+                <div class="delivery-back">
+                    <button class="delivery-back__button">Назад</button>
+                </div>
+                <div class="delivery-further">
+                    <button class="delivery-further__button">Далее</button>
+                </div>
+            </div>
+        </div>
+        <div class="content-integration">
+            <div class="content-status">
+                <div class="status-line">
+                    <span class="status-name status-name__head">Вид оплаты</span>
+                    <span class="status-name status-name__head">Вид оплаты в Insales</span>
+                </div>
+                <div class="status-line">
+                    <span class="status-name">Наложенный платеж</span>
+                    <select name="" class="status-select">
+                        <option value="" disabled selected style='display:none;'>Выберите вид оплаты</option>
+                        <option value="1">test1</option>
+                        <option value="2">test2</option>
+                        <option value="3">test3</option>
+                    </select>
+                </div>
+                <div class="status-line">
+                    <span class="status-name">Предоплата</span>
+                    <select name="" class="status-select">
+                        <option value="" disabled selected style='display:none;'>Выберите вид оплаты</option>
+                        <option value="1">test1</option>
+                        <option value="2">test2</option>
+                        <option value="3">test3</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
