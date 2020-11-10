@@ -48,73 +48,76 @@
                 <div class="delivery-service">
                     <p>Выберите службы доставки, которые будете отслеживать:</p>
                 </div>
-                <form action="">
-                    <div class="ds-checkbox-box">
+                <form action="" class="delivery-form js-delivery-form">
+                    <div class="ds-checkbox-box js-choose-all-checkbox">
                         <input class="ds-input-checkbox" type="checkbox" id="ds_1">
                         <label class="ds-label-checkbox" for="ds_1">Выбрать все</label>
                     </div>
-                    <div class="ds-checkbox-box">
-                        <input class="ds-input-checkbox" type="checkbox" id="ds_2">
-                        <label class="ds-label-checkbox" for="ds_2">Почта России</label>
-                        <div class="ds-checkbox-box ds-checkbox-under">
-                            <input class="ds-input-checkbox" type="checkbox" id="ds_2_1">
-                            <label class="ds-label-checkbox" for="ds_2_1">Самовывоз</label>
+                    <div class="js-rest-checkbox">
+                        <div class="ds-checkbox-box">
+                            <input class="ds-input-checkbox revealing-checkbox" type="checkbox" id="ds_2">
+                            <label class="ds-label-checkbox" for="ds_2">Почта России</label>
+                            <div class="ds-checkbox-box ds-checkbox-under">
+                                <input class="ds-input-checkbox" type="checkbox" id="ds_2_1">
+                                <label class="ds-label-checkbox" for="ds_2_1">Самовывоз</label>
+                            </div>
+                            <div class="ds-checkbox-box ds-checkbox-under">
+                                <input class="ds-input-checkbox" type="checkbox" id="ds_2_2">
+                                <label class="ds-label-checkbox" for="ds_2_2">Курьер</label>
+                            </div>
                         </div>
-                        <div class="ds-checkbox-box ds-checkbox-under">
-                            <input class="ds-input-checkbox" type="checkbox" id="ds_2_2">
-                            <label class="ds-label-checkbox" for="ds_2_2">Курьер</label>
+                        <div class="ds-checkbox-box">
+                            <input class="ds-input-checkbox revealing-checkbox" type="checkbox" id="ds_3">
+                            <label class="ds-label-checkbox" for="ds_3">CDEK</label>
+                            <div class="ds-checkbox-box ds-checkbox-under">
+                                <input class="ds-input-checkbox" type="checkbox" id="ds_3_1">
+                                <label class="ds-label-checkbox" for="ds_3_1">Самовывоз</label>
+                            </div>
+                            <div class="ds-checkbox-box ds-checkbox-under">
+                                <input class="ds-input-checkbox" type="checkbox" id="ds_3_2">
+                                <label class="ds-label-checkbox" for="ds_3_2">Курьер</label>
+                            </div>
+                        </div>
+                        <div class="ds-checkbox-box">
+                            <input class="ds-input-checkbox revealing-checkbox" type="checkbox" id="ds_4">
+                            <label class="ds-label-checkbox" for="ds_4">Boxberry</label>
+                            <div class="ds-checkbox-box ds-checkbox-under">
+                                <input class="ds-input-checkbox" type="checkbox" id="ds_4_1">
+                                <label class="ds-label-checkbox" for="ds_4_1">Самовывоз</label>
+                            </div>
+                            <div class="ds-checkbox-box ds-checkbox-under">
+                                <input class="ds-input-checkbox" type="checkbox" id="ds_4_2">
+                                <label class="ds-label-checkbox" for="ds_4_2">Курьер</label>
+                            </div>
+                        </div>
+                        <div class="ds-checkbox-box">
+                            <input class="ds-input-checkbox revealing-checkbox" type="checkbox" id="ds_5">
+                            <label class="ds-label-checkbox" for="ds_5">EMC</label>
+                            <div class="ds-checkbox-box ds-checkbox-under">
+                                <input class="ds-input-checkbox" type="checkbox" id="ds_5_1">
+                                <label class="ds-label-checkbox" for="ds_5_1">Самовывоз</label>
+                            </div>
+                            <div class="ds-checkbox-box ds-checkbox-under">
+                                <input class="ds-input-checkbox" type="checkbox" id="ds_5_2">
+                                <label class="ds-label-checkbox" for="ds_5_2">Курьер</label>
+                            </div>
+                        </div>
+                        <div class="ds-checkbox-box">
+                            <input class="ds-input-checkbox revealing-checkbox" type="checkbox" id="ds_6">
+                            <label class="ds-label-checkbox" for="ds_6">InSales</label>
+                            <div class="ds-checkbox-box ds-checkbox-under">
+                                <input class="ds-input-checkbox" type="checkbox" id="ds_6_1">
+                                <label class="ds-label-checkbox" for="ds_6_1">Самовывоз</label>
+                            </div>
+                            <div class="ds-checkbox-box ds-checkbox-under">
+                                <input class="ds-input-checkbox" type="checkbox" id="ds_6_2">
+                                <label class="ds-label-checkbox" for="ds_6_2">Курьер</label>
+                            </div>
                         </div>
                     </div>
-                    <div class="ds-checkbox-box">
-                        <input class="ds-input-checkbox" type="checkbox" id="ds_3">
-                        <label class="ds-label-checkbox" for="ds_3">CDEK</label>
-                        <div class="ds-checkbox-box ds-checkbox-under">
-                            <input class="ds-input-checkbox" type="checkbox" id="ds_3_1">
-                            <label class="ds-label-checkbox" for="ds_3_1">Самовывоз</label>
-                        </div>
-                        <div class="ds-checkbox-box ds-checkbox-under">
-                            <input class="ds-input-checkbox" type="checkbox" id="ds_3_2">
-                            <label class="ds-label-checkbox" for="ds_3_2">Курьер</label>
-                        </div>
-                    </div>
-                    <div class="ds-checkbox-box">
-                        <input class="ds-input-checkbox" type="checkbox" id="ds_4">
-                        <label class="ds-label-checkbox" for="ds_4">Boxberry</label>
-                        <div class="ds-checkbox-box ds-checkbox-under">
-                            <input class="ds-input-checkbox" type="checkbox" id="ds_4_1">
-                            <label class="ds-label-checkbox" for="ds_4_1">Самовывоз</label>
-                        </div>
-                        <div class="ds-checkbox-box ds-checkbox-under">
-                            <input class="ds-input-checkbox" type="checkbox" id="ds_4_2">
-                            <label class="ds-label-checkbox" for="ds_4_2">Курьер</label>
-                        </div>
-                    </div>
-                    <div class="ds-checkbox-box">
-                        <input class="ds-input-checkbox" type="checkbox" id="ds_5">
-                        <label class="ds-label-checkbox" for="ds_5">EMC</label>
-                        <div class="ds-checkbox-box ds-checkbox-under">
-                            <input class="ds-input-checkbox" type="checkbox" id="ds_5_1">
-                            <label class="ds-label-checkbox" for="ds_5_1">Самовывоз</label>
-                        </div>
-                        <div class="ds-checkbox-box ds-checkbox-under">
-                            <input class="ds-input-checkbox" type="checkbox" id="ds_5_2">
-                            <label class="ds-label-checkbox" for="ds_5_2">Курьер</label>
-                        </div>
-                    </div>
-                    <div class="ds-checkbox-box">
-                        <input class="ds-input-checkbox" type="checkbox" id="ds_6">
-                        <label class="ds-label-checkbox" for="ds_6">InSales</label>
-                        <div class="ds-checkbox-box ds-checkbox-under">
-                            <input class="ds-input-checkbox" type="checkbox" id="ds_6_1">
-                            <label class="ds-label-checkbox" for="ds_6_1">Самовывоз</label>
-                        </div>
-                        <div class="ds-checkbox-box ds-checkbox-under">
-                            <input class="ds-input-checkbox" type="checkbox" id="ds_6_2">
-                            <label class="ds-label-checkbox" for="ds_6_2">Курьер</label>
-                        </div>
-                    </div>
+
                     <div class="delivery-further">
-                        <button class="delivery-further__button">Далее</button>
+                        <button class="delivery-further__button" disabled>Далее</button>
                     </div>
                 </form>
             </div>
@@ -123,7 +126,63 @@
             </div>
         </div>
     </div>
+<!--    <div class="checkselect">-->
+<!--        <label><input type="checkbox" name="brands[]" value="1" checked> Google Inc.</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="2"> Apple Inc.</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="3"> Microsoft</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="4"> Facebook</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="5"> Amazon</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="6"> Verizon</label>-->
+<!--    </div>-->
+<!--     -->
+<!--    <div class="checkselect">-->
+<!--        <label><input type="checkbox" name="brands[]" value="1" checked>Google Inc.</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="2" checked>Apple Inc.</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="3">Microsoft</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="4">AT&T</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="5">Facebook</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="6">Visa</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="7">Amazon</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="8">Verizon</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="9">McDonald's</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="10">IBM</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="11">Tencent</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="12">Philip Morris</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="13">Coca-Cola</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="14">Wells Fargo</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="15">China Mobile</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="16">GE</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="17">UPS</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="18">Alibaba Group</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="19">Disney</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="20">MasterCard</label>-->
+<!--    </div>-->
+<!--     -->
+<!--    <div class="checkselect">-->
+<!--        <label><input type="checkbox" name="brands[]" value="1" checked>Manitowoc Crane Group</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="2" checked>Construction Equipment</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="3" checked>PCM Cranes International GMBH</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="4">Erdmann Export-Import</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="5">Scandinavian & UK Machines</label>-->
+<!--        <label><input type="checkbox" name="brands[]" value="6">Feel Industrial Engineering</label>-->
+<!--        <div class="ds-checkbox-box">-->
+<!--            <input class="ds-input-checkbox" type="checkbox" id="ds_2_44" name="brands[]" value="6">-->
+<!--            <label class="ds-label-checkbox" for="ds_2_44">Курьер</label>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="ds-checkbox-box">-->
 
+<!--        <div class="ds-checkbox-box ds-checkbox-under">-->
+<!--            <input class="ds-input-checkbox" type="checkbox" id="ds_2_1">-->
+<!--            <label class="ds-label-checkbox" for="ds_2_1">Самовывоз</label>-->
+<!--        </div>-->
+<!--        <div class="ds-checkbox-box ds-checkbox-under">-->
+<!--            <input class="ds-input-checkbox" type="checkbox" id="ds_2_2">-->
+<!--            <label class="ds-label-checkbox" for="ds_2_2">Курьер</label>-->
+<!--        </div>-->
+<!--    </div>-->
 
+    <script type="text/javascript" src="./js/jquery-3.5.1.slim.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
 </body>
 </html>

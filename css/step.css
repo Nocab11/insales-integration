@@ -101,7 +101,11 @@ body {
     padding-top: 2px;
 }
 .ds-checkbox-under {
+    display: none;
     margin-left: 30px;
+}
+.ds-checkbox-under-block {
+    display: block;
 }
 .ds-checkbox-box input[type="checkbox"] {
     display: none;
@@ -151,6 +155,18 @@ body {
 .ds-checkbox-box input[type="checkbox"]:focus + label::before {
     outline: rgb(59, 153, 252) auto 5px;
 }
+
+/*** js checkbox ***/
+.checkbox-show .ds-checkbox-under {
+    display: block;
+}
+/*.checkbox-show .ds-checkbox-box input[type="checkbox"] + label::after {*/
+/*    content: '';*/
+/*}*/
+/*.checkbox-show .ds-checkbox-box input[type="checkbox"]:checked + label::after {*/
+/*    content: none;*/
+/*}*/
+
 .content-integration {
     display: flex;
     align-items: flex-start;
@@ -198,6 +214,12 @@ body {
     text-align: center;
     border: none;
     cursor: pointer;
+}
+.delivery-further__button:disabled {
+    background: #E7E7E7;
+    color: #ffffff;
+    box-shadow: none;
+    cursor: no-drop;
 }
 .content-status {
     padding: 32px;
@@ -254,4 +276,99 @@ body {
         padding-left: 0;
     }
 }
+
+/*body {*/
+/*    font-size:14px;*/
+/*    padding: 15px 20px;*/
+/*    text-align: center;*/
+/*}*/
+/*body{*/
+/*    background: url(https://snipp.ru/img/checkselect-1.png) 50% 0 no-repeat;*/
+/*}*/
+
+/*.checkselect {*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*    min-width: 200px;*/
+/*    text-align: left;*/
+/*}*/
+/*.checkselect-control {*/
+/*    position: relative;*/
+/*    padding: 0 !important;*/
+/*}*/
+/*.checkselect-control select {*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*    width: 100%;*/
+/*    margin: 0;*/
+/*    padding-left: 5px;*/
+/*    height: 30px;*/
+/*}*/
+/*.checkselect-over {*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.checkselect-popup {*/
+/*    display: none;*/
+/*    box-sizing: border-box;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    max-height: 200px;*/
+/*    position: absolute;*/
+/*    top: 100%;*/
+/*    left: 0px;*/
+/*    border: 1px solid #dadada;*/
+/*    border-top: none;*/
+/*    background: #fff;*/
+/*    z-index: 9999;*/
+/*    overflow: auto;*/
+/*    user-select: none;*/
+/*}*/
+/*.checkselect label {*/
+/*    position: relative;*/
+/*    display: block;*/
+/*    margin: 0;*/
+/*    padding: 4px 6px 4px 25px;*/
+/*    font-weight: normal;*/
+/*    font-size: 1em;*/
+/*    line-height: 1.1;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.checkselect-popup input {*/
+/*    position: absolute;*/
+/*    top: 5px;*/
+/*    left: 8px;*/
+/*    margin: 0 !important;*/
+/*    padding: 0;*/
+/*}*/
+/*.checkselect-popup label:hover {*/
+/*    background: #03a2ff;*/
+/*    color: #fff;*/
+/*}*/
+/*.checkselect-popup fieldset {*/
+/*    display: block;*/
+/*    margin:  0;*/
+/*    padding: 0;*/
+/*    border: none;*/
+/*}*/
+/*.checkselect-popup fieldset input {*/
+/*    left: 15px;*/
+/*}*/
+/*.checkselect-popup fieldset label {*/
+/*    padding-left: 32px;*/
+/*}*/
+/*.checkselect-popup legend {*/
+/*    display: block;*/
+/*    margin: 0;*/
+/*    padding: 5px 8px;*/
+/*    font-weight: 700;*/
+/*    font-size: 1em;*/
+/*    line-height: 1.1;*/
+/*}*/
 
