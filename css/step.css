@@ -104,9 +104,7 @@ body {
     display: none;
     margin-left: 30px;
 }
-.ds-checkbox-under-block {
-    display: block;
-}
+
 .ds-checkbox-box input[type="checkbox"] {
     display: none;
     opacity: 0;
@@ -161,6 +159,24 @@ body {
     display: block;
 }
 
+.ds-checkbox-under-block {
+
+}
+.checkbox-show .ds-checkbox-under.ds-checkbox-under-block {
+
+}
+.delivery-form .ds-checkbox-under.ds-checkbox-under-block {
+
+}
+.checkbox-show .ds-checkbox-under.ds-checkbox-under-block {
+    display: none;
+}
+.ds-checkbox-under.ds-checkbox-under-block {
+    display: block;
+}
+.item.ds-checkbox-under.ds-checkbox-under-block {
+
+}
 
 .content-integration {
     display: flex;
@@ -360,5 +376,22 @@ body {
     left: 19px;
     top: 4px;
 }
+
+
+/**** example ****/
+.block-checkbox-under {
+    padding-left: 30px;
+    display: none;
+}
+.checkbox-show .block-checkbox-under {
+    display: block;
+}
+.checkbox-under-show {
+    display: block;
+}
+.checkbox-show .block-checkbox-under.checkbox-under-hide {
+    display: none;
+}
+
 
 
