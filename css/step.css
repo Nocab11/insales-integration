@@ -352,13 +352,11 @@ body {
     color: #fff;
 
 }
-.custom-select .ds-checkbox-box {
 
-}
-.ds-checkbox-box label::after {
+.custom-select label::after {
     left: 19px;
 }
-.ds-checkbox-box label::before {
+.custom-select label::before {
     left: 19px;
     top: 4px;
 }
