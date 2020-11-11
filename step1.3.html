@@ -62,34 +62,65 @@
             </div>
         </div>
         <div class="content-integration">
-            <div class="content-status">
+            <div class="content-status custom-select">
                 <div class="status-line">
                     <span class="status-name status-name__head">Вид оплаты</span>
                     <span class="status-name status-name__head">Вид оплаты в Insales</span>
                 </div>
                 <div class="status-line">
                     <span class="status-name">Наложенный платеж</span>
-                    <select name="" class="status-select">
-                        <option value="" disabled selected style='display:none;'>Выберите вид оплаты</option>
-                        <option value="1">test1</option>
-                        <option value="2">test2</option>
-                        <option value="3">test3</option>
-                    </select>
+                    <div class="checkselect">
+                        <div class="ds-checkbox-box">
+                            <input class="ds-input-checkbox" type="checkbox" id="cod_1" name="">
+                            <label class="ds-label-checkbox" for="cod_1">Оплата наличными</label>
+                        </div>
+                        <div class="ds-checkbox-box">
+                            <input class="ds-input-checkbox" type="checkbox" id="cod_2" name="">
+                            <label class="ds-label-checkbox" for="cod_2">Оплата наличными в ПВЗ</label>
+                        </div>
+                        <div class="ds-checkbox-box">
+                            <input class="ds-input-checkbox" type="checkbox" id="cod_3" name="">
+                            <label class="ds-label-checkbox" for="cod_3">Оплата картой на сайте</label>
+                        </div>
+                        <div class="ds-checkbox-box">
+                            <input class="ds-input-checkbox" type="checkbox" id="cod_4" name="">
+                            <label class="ds-label-checkbox" for="cod_4">Наложенный платеж</label>
+                        </div>
+                        <div class="ds-checkbox-box">
+                            <input class="ds-input-checkbox" type="checkbox" id="cod_5" name="">
+                            <label class="ds-label-checkbox" for="cod_5">Робокасса</label>
+                        </div>
+                        <div class="ds-checkbox-box">
+                            <input class="ds-input-checkbox" type="checkbox" id="cod_6" name="">
+                            <label class="ds-label-checkbox" for="cod_6">Яндекс деньги</label>
+                        </div>
+                    </div>
                 </div>
                 <div class="status-line">
                     <span class="status-name">Предоплата</span>
-                    <select name="" class="status-select">
-                        <option value="" disabled selected style='display:none;'>Выберите вид оплаты</option>
-                        <option value="1">test1</option>
-                        <option value="2">test2</option>
-                        <option value="3">test3</option>
-                    </select>
+                    <div class="checkselect">
+                        <div class="ds-checkbox-box">
+                            <input class="ds-input-checkbox" type="checkbox" id="prepayment_1" name="">
+                            <label class="ds-label-checkbox" for="prepayment_1">Рандомный вариант 1</label>
+                        </div>
+                        <div class="ds-checkbox-box">
+                            <input class="ds-input-checkbox" type="checkbox" id="prepayment_2" name="">
+                            <label class="ds-label-checkbox" for="prepayment_2">Рандомный вариант 2</label>
+                        </div>
+                        <div class="ds-checkbox-box">
+                            <input class="ds-input-checkbox" type="checkbox" id="prepayment_3" name="">
+                            <label class="ds-label-checkbox" for="prepayment_3">Рандомный вариант 3</label>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
+
     </div>
 </div>
 
-
+<script type="text/javascript" src="./js/jquery-3.5.1.slim.min.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
 </body>
 </html>
